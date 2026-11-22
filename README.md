@@ -8,7 +8,7 @@ A newspaper front page for Saturday 21 November 2026, made for the make.fun boun
 
 ## What it is
 
-`entry.png` is a full front page of the fictional WORLD NEWS paper: a masthead, five stories with images, a date line and a price. `main.ts` copies it to `/output/entry.png`, which is exactly what the judge sees.
+`entry.png` is a full front page of the fictional WORLD NEWS paper: a masthead, five stories with images, a date line and a price. The five stories cover the day's world, business, science, culture and sport. `main.ts` copies it to `/output/entry.png`, which is exactly what the judge sees.
 
 ## Files
 
