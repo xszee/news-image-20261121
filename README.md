@@ -8,9 +8,16 @@ A newspaper front page for Saturday 21 November 2026, made for the make.fun boun
 
 ## What it is
 
-`entry.png` is a full front page of the fictional WORLD NEWS paper: masthead, five stories with images, date line and price. `main.ts` copies it to `/output/entry.png`.
+`entry.png` is a full front page of the fictional WORLD NEWS paper: a masthead, five stories with images, a date line and a price. `main.ts` copies it to `/output/entry.png`, which is exactly what the judge sees.
 
 ## Files
 
 - `entry.png` — the newspaper front page (1024×1024 JPEG).
 - `main.ts` — copies `entry.png` to the output directory.
+- `LICENSE` — MIT.
+
+## Run it
+
+```sh
+mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
+```
